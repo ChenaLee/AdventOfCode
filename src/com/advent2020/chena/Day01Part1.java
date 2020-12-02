@@ -10,7 +10,6 @@ import java.util.stream.Collectors;
 public class Day01Part1 {
 
     public static void main(String[] args) throws IOException {
-        System.out.println(System.getProperty("user.dir"));
         List<String> numbersInString = Files.readAllLines(Paths.get("src/com/advent2020/chena/data/day01.txt"));
         List<Integer> numbers = numbersInString.stream().map(Integer::parseInt).collect(Collectors.toList());
         Collections.sort(numbers);
