@@ -1,4 +1,4 @@
-package com.advent2020.chena;
+package advent2020.chenalee.day01;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 public class Day01Part1 {
 
     public static void main(String[] args) throws IOException {
-        List<String> numbersInString = Files.readAllLines(Paths.get("src/com/advent2020/chena/data/day01.txt"));
+        List<String> numbersInString = Files.readAllLines(Paths.get("src/advent2020/chenalee/data/day01.txt"));
         List<Integer> numbers = numbersInString.stream().map(Integer::parseInt).collect(Collectors.toList());
         Collections.sort(numbers);
 
