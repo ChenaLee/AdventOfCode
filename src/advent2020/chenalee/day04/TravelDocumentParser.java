@@ -1,7 +1,5 @@
 package advent2020.chenalee.day04;
 
-import advent2020.chenalee.util.TestDataReader;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
